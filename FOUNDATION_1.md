@@ -8,9 +8,11 @@
 **Agency:** Bureau of Transportation Statistics (BTS)  
 **Scope:** Records of airline on-time arrival and departure data for flights operated by large air carriers in the United States. Includes scheduled/actual times, delays, carrier codes, flight numbers, and airport codes.
 
+
 **Access Verification:**
 - Data is publicly available via the [BTS website](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp?pn=1) and can be downloaded as CSV files or accessed via the BTS API.
 - Example data snippet (CSV):
+- A verified extract of the dataset is included in the repository ([evidence/sample_BTS_Airline_On-Time_Performance.csv](evidence/sample_BTS_Airline_On-Time_Performance.csv)), containing representative rows from the BTS Airline On-Time Performance dataset and demonstrating successful data retrieval.
 
 | Year | Month | DayofMonth | Carrier | FlightNum | Origin | Dest | DepTime | ArrTime | DepDelay | ArrDelay |
 |------|-------|------------|---------|-----------|--------|------|---------|---------|----------|----------|
